@@ -19,8 +19,15 @@ require('lualine').setup {
     },
     sections = {
         lualine_a = {'mode'},
-        lualine_b = {'branch', 'diff',},
-        lualine_c = {'filename'},
+        lualine_b = {'branch',
+            {
+                'diff',
+                colored = true;
+                symbols = {added = '+', modified = '~', removed = '-'}
+            }},
+        lualine_c = {
+            'filename'
+        },
         lualine_x = {
             {
                 'diagnostics',
