@@ -1,4 +1,5 @@
 local v = vim.opt
+v.nu = true
 v.rnu = true
 v.tabstop = 4
 v.softtabstop = 4
