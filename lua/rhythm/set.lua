@@ -13,5 +13,8 @@ v.termguicolors = true
 v.scrolloff = 10
 v.signcolumn ="yes"
 v.updatetime=50
+v.ruler = true
+v.cmdheight = 2
+v.showmode=false
 
 vim.g.mapleader = " "
